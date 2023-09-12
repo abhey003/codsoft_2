@@ -1,0 +1,302 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: seashell;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ } 
+
+ header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+} 
+
+/* Hero section styling */
+#hero {
+    background-image: url('./laptopboy.gif');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 100px 0;
+    height: 300px
+}
+
+.hero-text {
+    text-align: right; 
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#hero .container{
+    margin-top: 30px;
+} 
+
+
+#about {
+    background-color: antiquewhite;
+    padding: 40px 0;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center; 
+}
+
+.about-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+} 
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1; 
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-image:hover{
+    transform: translateY(-5px);
+}
+
+#skills {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 50px 20px 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    font-size: x-large;
+    margin-bottom: 10px
+ }
+
+#skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#skills li {
+    font-size: large;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+#skills li:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+#education {
+    background-color: antiquewhite;
+    padding: 40px 0;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#education h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.education-level {
+    border-left: 3px solid #0077B5; 
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.education-level h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-details p {
+    font-size: 1rem;
+    color: #777;
+    margin: 2px 0;
+}
+
+
+  #portfolio {
+    background-color: seashell;
+    padding: 40px 0;
+}
+
+#portfolio .container h2{
+    margin-bottom: 10px;
+ }
+
+.project {
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.project h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.project:hover{
+    transform: translateY(-5px);
+}
+
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-images img {
+    max-width: 30%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+.project-images img:hover{
+    transform: translateX(-7px);
+    cursor: pointer;
+}
+
+
+#resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#resume h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#resume p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+#resume button {
+    background-color: #0077B5; 
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#resume button:hover {
+    background-color: #005f95; 
+}
+
+
+#contact {
+    background-color: moccasin;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact a i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #0077B5;
+}
+
+#contact .container h2{
+    margin-bottom: 10px;
+}
+
+
+#contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #0077B5; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
